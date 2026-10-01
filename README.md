@@ -4,6 +4,7 @@
 
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
+| ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-01 |
 | ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-01 |
 | GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา) | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
 | Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB | ฐานข้อมูล | [grafanaDB](https://github.com/Nasak16/grafanaDB) | 2026-09-24 |
@@ -18,7 +19,7 @@
 | Decision Tree (งานที่ 3) | Decision Tree | [DecisionTree_ML3](https://github.com/Nasak16/DecisionTree_ML3) | 2026-07-10 |
 | KNN: จำแนกข้อมูลด้วยเพื่อนบ้านใกล้สุด | Machine Learning | [KNN](https://github.com/Nasak16/KNN) | 2026-07-07 |
 
-## งานล่าสุด: ระบบแนะนำหนังสือ (Neo4j + Streamlit)
+## งานล่าสุด: ระบบแนะนำมือถือ (Neo4j + Streamlit)
 
-- โน๊ตบุ๊ก Colab: https://colab.research.google.com/gist/Nasak16/247492673b9b3a74dd39bd7d442d398c/BookRecommender_Neo4j_007.ipynb
-- โค้ด + สไลด์: https://github.com/Nasak16/book-recommender
+- โน๊ตบุ๊ก Colab: https://colab.research.google.com/gist/Nasak16/8667b219bbff8253335ec78f78b5c79e/PhoneRecommender_Neo4j_007.ipynb
+- โค้ด + สไลด์: https://github.com/Nasak16/phone-recommender
