@@ -5,7 +5,8 @@
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
 | ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-01 |
-| GraphBook — ระบบจัดการข้อมูลด้วยฐานข้อมูลกราฟ | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
+| homework | งานอื่น ๆ | [homework](https://github.com/Nasak16/homework) | 2026-10-01 |
+| GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา) | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
 | Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB | ฐานข้อมูล | [grafanaDB](https://github.com/Nasak16/grafanaDB) | 2026-09-24 |
 | โปรเจกต์จบ: ระบบรักษาความปลอดภัยบ้าน IoT | IoT | [iot-security-dashboard](https://github.com/Nasak16/iot-security-dashboard) | 2026-08-28 |
 | Machine Learning: ทำนายผู้รอดชีวิต Titanic | Machine Learning | [titanic-ml-project](https://github.com/Nasak16/titanic-ml-project) | 2026-08-21 |
