@@ -4,7 +4,7 @@
 
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
-| ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-01 |
+| ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-02 |
 | ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-01 |
 | GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา) | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
 | Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB | ฐานข้อมูล | [grafanaDB](https://github.com/Nasak16/grafanaDB) | 2026-09-24 |
