@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>รวมงานทั้งหมด · รหัส 007</title>
+<title>ระบบแนะนำมือถือ · รหัส 007</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700;800&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
@@ -46,17 +46,6 @@
                   box-shadow:0 10px 28px rgba(0,180,255,.26); }
   .fcard .ic { width:52px; height:52px; font-size:26px; }
   .fcard h3 { font-size:19px; }
-  .latest { border:1px solid var(--line); border-radius:18px; padding:24px; margin:26px 0 6px;
-             background:linear-gradient(135deg,rgba(37,99,235,.16),rgba(5,7,15,.25));
-             box-shadow:0 6px 26px rgba(0,140,255,.12); }
-  .latest h2 { margin:0 0 8px; font-size:21px; color:var(--yellow); }
-  .latest p { margin:0 0 16px; color:var(--muted); font-size:15px; }
-  .acts { display:flex; gap:12px; flex-wrap:wrap; }
-  .acts a { text-decoration:none; font-weight:700; font-size:13.5px; padding:10px 16px;
-             border-radius:10px; color:#04121F;
-             background:linear-gradient(90deg,var(--blue),var(--cyan)); }
-  .acts a.ghost { background:transparent; color:var(--cyan); border:1px solid var(--line); }
-  .acts a:hover { filter:brightness(1.1); }
   .filters { display:flex; gap:10px; flex-wrap:wrap; margin:34px 0 4px; }
   .chip { font-family:inherit; font-size:13.5px; border:1px solid var(--line); background:var(--card);
            color:var(--muted); padding:8px 16px; border-radius:999px; cursor:pointer; }
@@ -82,9 +71,6 @@
   p { margin:0; color:var(--muted); font-size:14px; }
   .meta { font-size:12px; color:#9FB0CB; margin-top:2px; }
   .meta code { color:var(--cyan); }
-  .extra { display:flex; gap:14px; flex-wrap:wrap; }
-  .extra a { font-size:13px; color:var(--yellow); text-decoration:none; font-weight:600; }
-  .extra a:hover { text-decoration:underline; }
   .btn { margin-top:auto; display:block; text-align:center; text-decoration:none; font-weight:800;
           font-size:13.5px; padding:11px 16px; border-radius:11px; color:#04121F;
           background:linear-gradient(90deg,var(--blue),var(--cyan));
@@ -92,194 +78,65 @@
   .btn:hover { filter:brightness(1.12); }
   .btn-off { background:transparent; color:var(--muted); font-weight:600;
               border:1px solid var(--line); box-shadow:none; }
+  .foot2 { margin-top:10px; font-size:12.5px; color:#7d8dab; }
   footer { border-top:1px solid var(--line); color:var(--muted); font-size:13px;
             padding:26px 22px; text-align:center; }
 </style>
 </head>
 <body>
 <header class="wrap">
-  <div class="kicker">Homework Hub · รหัส 007</div>
-  <h1>รวมงานทั้งหมดของเรา</h1>
-  <p class="sub">ศูนย์รวมงานที่ส่งใน GitHub ทุกชิ้น — กดการ์ดเพื่อเปิด repo ของแต่ละงาน ·
-    งานล่าสุดคือ “ระบบแนะนำมือถือ (Neo4j + Streamlit)” ซึ่งมีโน๊ตบุ๊กอธิบายวิธีทำ เว็บแอปสาธิต และสไลด์นำเสนอ</p>
+  <div class="kicker">Project Hub · รหัส 007</div>
+  <h1>ระบบแนะนำมือถือ</h1>
+  <p class="sub">ศูนย์รวมชิ้นงานของโปรเจกต์ — โครงสร้างข้อมูล · การวิเคราะห์ข้อมูล ·
+    ระบบแนะนำที่ใช้งานได้จริง และสไลด์นำเสนอ<br>
+    ฐานข้อมูลกราฟ <b>Neo4j</b> + เว็บแอป <b>Streamlit</b> · ข้อมูลที่สร้างเอง
+    12 คน × 23 รุ่น × 38 ความสนใจ</p>
   <div class="stats">
-    <div class="stat"><b>15</b><span>งานทั้งหมด</span></div>
-    <div class="stat"><b>14</b><span>repo สาธารณะ</span></div>
-    <div class="stat"><b>5</b><span>หมวดงาน</span></div>
-    <div class="stat"><b>2026-10-03</b><span>อัปเดตล่าสุด</span></div>
+    <div class="stat"><b>12</b><span>ผู้ใช้ในระบบ</span></div>
+    <div class="stat"><b>23</b><span>รุ่นมือถือ</span></div>
+    <div class="stat"><b>38</b><span>ความสนใจ (LIKES)</span></div>
+    <div class="stat"><b>38</b><span>คะแนนดาว (RATED)</span></div>
   </div>
 </header>
 
 <div class="wrap">
-  <h2 class="feat-h">🧩 <span>ชิ้นงานหลักของโปรเจกต์นี้</span> — ระบบแนะนำมือถือ (Neo4j + Streamlit)</h2>
+  <h2 class="feat-h">🧩 <span>ชิ้นงานหลักของโปรเจกต์นี้</span></h2>
   <div class="feat">
     <article class="fcard">
       <div class="ic" style="--c:#38D0FF">🕸️</div>
       <h3>โครงสร้างข้อมูล</h3>
-      <p>โน๊ตบุ๊ก Colab: วางโครงสร้างกราฟผู้ใช้–มือถือ (โหนด/ความสัมพันธ์) แล้วสร้างกราฟขึ้นมาดูจริง ด้วย Python + NetworkX — ต่อยอดเป็นฐานข้อมูล Neo4j ของเรา (12 คน × 23 รุ่น × 38 ความสนใจ)</p>
+      <p>โน๊ตบุ๊ก Colab: วางโครงสร้างกราฟผู้ใช้–มือถือ (โหนด/ความสัมพันธ์) แล้วสร้างกราฟขึ้นมาดูจริง ด้วย Python + NetworkX — ต่อยอดเป็นฐานข้อมูล Neo4j ของเรา</p>
       <a class="btn" href="https://colab.research.google.com/drive/1otL6fhYPX70uo7WDPJZEYMLc3sZ_5pjW" target="_blank" rel="noopener">เปิดโน๊ตบุ๊ก →</a>
-    </article>    <article class="fcard">
+    </article>
+    <article class="fcard">
       <div class="ic" style="--c:#38D0FF">📊</div>
       <h3>วิเคราะห์ข้อมูล</h3>
-      <p>โน๊ตบุ๊ก Colab: วิเคราะห์ความสัมพันธ์ในกราฟ — ถามหาว่าใครชอบรุ่นไหน, หาคนรสนิยมใกล้กัน, แล้วทดลองสูตรแนะนำพร้อมผลลัพธ์จริง</p>
+      <p>โน๊ตบุ๊ก Colab: วิเคราะห์ความสัมพันธ์ในกราฟ — ใครชอบรุ่นไหน, หาคนรสนิยมใกล้กัน, แล้วทดลองสูตรแนะนำพร้อมผลลัพธ์จริง</p>
       <a class="btn" href="https://colab.research.google.com/drive/1cMFDdhw6XsuVDlMjDAhIRqc-DuShmSSv" target="_blank" rel="noopener">เปิดโน๊ตบุ๊ก →</a>
-    </article>    <article class="fcard">
+    </article>
+    <article class="fcard">
       <div class="ic" style="--c:#38D0FF">📱</div>
       <h3>ระบบแนะนำ (ของเรา)</h3>
-      <p>เว็บแอปออนไลน์ (Streamlit Cloud + Neo4j Aura) 6 หน้า: ให้คะแนนแล้วระบบแนะนำรุ่นที่ใช่ · ค้นหารุ่น · สำรวจกราฟ · แสดงภาพสินค้าจริงในการ์ดทุกใบ (โค้ดอยู่ใน GitHub)</p>
+      <p>เว็บแอปออนไลน์ (Streamlit Cloud + Neo4j Aura) 6 หน้า: ให้คะแนนแล้วระบบแนะนำรุ่นที่ใช่ · ค้นหารุ่น · สำรวจกราฟ · แสดงภาพสินค้าจริงในการ์ดทุกใบ</p>
       <a class="btn" href="https://phone-recommender-5tqx7desto7ariadwgxyhi.streamlit.app/" target="_blank" rel="noopener">เปิดแอป →</a>
-    </article>    <article class="fcard">
+    </article>
+    <article class="fcard">
       <div class="ic" style="--c:#38D0FF">🎨</div>
       <h3>สไลด์นำเสนอโปรเจกต์</h3>
       <p>สรุปแนวคิด วิธีทำ และผลลัพธ์ทั้งหมดเป็น 16 สไลด์ (.pptx/.pdf) พร้อมหน้าสาธิตการใช้งาน สำหรับนำเสนอหน้าชั้นเรียน</p>
       <a class="btn" href="https://github.com/Nasak16/phone-recommender/tree/main/slides" target="_blank" rel="noopener">เปิดสไลด์ →</a>
     </article>
   </div>
-
-  <div class="filters">
-    <button class="chip on" data-f="ทั้งหมด">ทั้งหมด</button><button class="chip" data-f="ฐานข้อมูล">ฐานข้อมูล</button><button class="chip" data-f="IoT">IoT</button><button class="chip" data-f="Machine Learning">Machine Learning</button><button class="chip" data-f="Decision Tree">Decision Tree</button><button class="chip" data-f="รวมงาน">รวมงาน</button>
-  </div>
+  <p class="foot2" style="text-align:center">
+    ตัวชี้วัดอื่น: 11 ยี่ห้อ · 3 ระดับราคา · เมนูในแอป 7 หน้า ·
+    โน๊ตบุ๊ก Colab + สไลด์ 16 หน้า
+  </p>
 </div>
 
-<main class="wrap">
-    <article class="card" data-cat="ฐานข้อมูล">
-      <div class="ic" style="--c:#38D0FF">📱</div>
-      <div class="tag" style="--c:#38D0FF">ฐานข้อมูล</div>
-      <h3>ระบบแนะนำมือถือ (Neo4j + Streamlit)</h3>
-      <p>งานนี้: ระบบแนะนำมือถือบนฐานข้อมูลกราฟ Neo4j — 12 คน × 23 รุ่น × 38 ความสนใจ + 38 คะแนนดาว (RATED) · เว็บแอป 6 หน้า (Dashboard / Recommendations / Phone Search / Like & Rate / Graph Explorer / Admin & Setup) · 5 วิธีให้คะแนน · แสดงภาพสินค้าจริงในการ์ดทุกใบ · มีโน๊ตบุ๊ก Colab + สไลด์ 16 หน้า · เว็บแอปออนไลน์แล้วบน Streamlit Cloud (ข้อมูลจริงจาก Neo4j Aura)</p>
-      <div class="meta"><code>phone-recommender</code> · Python · อัปเดต 2026-10-03 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/phone-recommender" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="ฐานข้อมูล">
-      <div class="ic" style="--c:#38D0FF">📚</div>
-      <div class="tag" style="--c:#38D0FF">ฐานข้อมูล</div>
-      <h3>ระบบแนะนำหนังสือ (Neo4j + Streamlit)</h3>
-      <p>งานนี้: ระบบแนะนำหนังสือบนฐานข้อมูลกราฟ Neo4j 12 คน × 28 เล่ม แสดงภาพปกจริง มีทั้งโน๊ตบุ๊ก Colab และเว็บแอปสาธิต</p>
-      <div class="meta"><code>book-recommender</code> · Python · อัปเดต 2026-10-03 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/book-recommender" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="ฐานข้อมูล">
-      <div class="ic" style="--c:#38D0FF">📚</div>
-      <div class="tag" style="--c:#38D0FF">ฐานข้อมูล</div>
-      <h3>GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา)</h3>
-      <p>Streamlit + Neo4j Aura: (Student)-[:BORROWED]->(Book) + เพื่อน/หมวด/คะแนนดาว สูตร hybrid แบบ heuristic</p>
-      <div class="meta"><code>GrapDB1</code> · Python · อัปเดต 2026-09-29 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/GrapDB1" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="ฐานข้อมูล">
-      <div class="ic" style="--c:#38D0FF">📈</div>
-      <div class="tag" style="--c:#38D0FF">ฐานข้อมูล</div>
-      <h3>Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB</h3>
-      <p>รวบรวมข้อมูลอนุกรมเวลาและทำแดชบอร์ดติดตามสถานะ</p>
-      <div class="meta"><code>grafanaDB</code> · - · อัปเดต 2026-09-24 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/grafanaDB" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="IoT">
-      <div class="ic" style="--c:#FF8833">📡</div>
-      <div class="tag" style="--c:#FF8833">IoT</div>
-      <h3>โปรเจกต์จบ: ระบบรักษาความปลอดภัยบ้าน IoT</h3>
-      <p>ESP32 + ESP32-CAM + Firebase + Grafana + LINE Notify (repo ส่วนตัว)</p>
-      <div class="meta"><code>iot-security-dashboard</code> · C++ · อัปเดต 2026-08-28 · ส่วนตัว</div>
-      <span class="btn btn-off">repo ส่วนตัว (ให้สิทธิ์เมื่อขอ)</span>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🚢</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>Machine Learning: ทำนายผู้รอดชีวิต Titanic</h3>
-      <p>EDA + โมเดลทำนาย และเว็บแอป Streamlit สำหรับทดลองทำนาย</p>
-      <div class="meta"><code>titanic-ml-project</code> · Python · อัปเดต 2026-08-21 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/titanic-ml-project" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🎓</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>ทำนายผลการเรียนของนักเรียน</h3>
-      <p>สร้างโมเดลจาก student performance dataset แล้ว deploy ด้วย Streamlit</p>
-      <div class="meta"><code>web_model</code> · Python · อัปเดต 2026-07-30 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/web_model" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🌲</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>Machine Learning: จำแนกประเภทข้อมูลป่า</h3>
-      <p>ฝึกโมเดลจำแนกประเภทพร้อมวัดผลความแม่นยำ</p>
-      <div class="meta"><code>forest</code> · Jupyter Notebook · อัปเดต 2026-07-24 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/forest" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🧠</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>Machine Learning: วิเคราะห์ข้อมูลสุขภาพจิต</h3>
-      <p>สำรวจข้อมูลและสร้างโมเดลทำนายกลุ่มเสี่ยง</p>
-      <div class="meta"><code>mental_ML</code> · Python · อัปเดต 2026-07-17 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/mental_ML" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🏠</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>Machine Learning: ทำนายราคาบ้าน (Boston Housing)</h3>
-      <p>งาน Regression พื้นฐานพร้อมกราฟวิเคราะห์</p>
-      <div class="meta"><code>Boston_ML</code> · Python · อัปเดต 2026-07-17 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/Boston_ML" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Decision Tree">
-      <div class="ic" style="--c:#FBBF24">❤️</div>
-      <div class="tag" style="--c:#FBBF24">Decision Tree</div>
-      <h3>Decision Tree: ทำนายความเสี่ยงโรคหัวใจ</h3>
-      <p>สร้างโมเดล Decision Tree และวัดผลด้วย confusion matrix</p>
-      <div class="meta"><code>DTreeHeart</code> · Python · อัปเดต 2026-07-14 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/DTreeHeart" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Decision Tree">
-      <div class="ic" style="--c:#FBBF24">🍷</div>
-      <div class="tag" style="--c:#FBBF24">Decision Tree</div>
-      <h3>Decision Tree: จำแนกชนิดไวน์</h3>
-      <p>ฝึก Decision Tree กับข้อมูลไวน์และเปรียบเทียบผล</p>
-      <div class="meta"><code>DTwine</code> · Python · อัปเดต 2026-07-14 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/DTwine" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Decision Tree">
-      <div class="ic" style="--c:#FBBF24">🌳</div>
-      <div class="tag" style="--c:#FBBF24">Decision Tree</div>
-      <h3>Decision Tree (งานที่ 3)</h3>
-      <p>ฝึกสร้างโมเดลต้นไม้ตัดสินใจและปรับพารามิเตอร์</p>
-      <div class="meta"><code>DecisionTree_ML3</code> · Python · อัปเดต 2026-07-10 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/DecisionTree_ML3" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="Machine Learning">
-      <div class="ic" style="--c:#34D399">🔵</div>
-      <div class="tag" style="--c:#34D399">Machine Learning</div>
-      <h3>KNN: จำแนกข้อมูลด้วยเพื่อนบ้านใกล้สุด</h3>
-      <p>ฝึกอัลกอริทึม K-Nearest Neighbors พร้อมเลือกค่า k ที่เหมาะสม</p>
-      <div class="meta"><code>KNN</code> · Python · อัปเดต 2026-07-07 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/KNN" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-    <article class="card" data-cat="รวมงาน">
-      <div class="ic" style="--c:#A78BFA">🧭</div>
-      <div class="tag" style="--c:#A78BFA">รวมงาน</div>
-      <h3>หน้ารวมงานทั้งหมด (Hub — หน้านี้เอง)</h3>
-      <p>หน้าเว็บรวมลิงก์งานทุกชิ้นไว้ที่เดียว (GitHub Pages) สร้างจากข้อมูล repo จริง ด้วยสคริปต์ build_index.py อยู่ใน repo นี้</p>
-      <div class="meta"><code>homework</code> · HTML · อัปเดต 2026-10-03 · สาธารณะ</div>
-      <a class="btn" href="https://github.com/Nasak16/homework" target="_blank" rel="noopener">เปิด repo →</a>
-    </article>
-</main>
-
 <footer>
-  จัดทำโดย รหัส 007 · หน้านี้อยู่ใน repo <a href="https://github.com/Nasak16/homework">Nasak16/homework</a>
-  และสร้างจากข้อมูล repo จริงด้วยสคริปต์ (build_index.py)
+  จัดทำโดย รหัส 007 · โปรเจกต์อยู่ใน repo
+  <a href="https://github.com/Nasak16/phone-recommender">Nasak16/phone-recommender</a> · หน้านี้สร้างด้วยสคริปต์ (build_index.py)<br>
+  <span class="foot2">📚 <a href="all-work.html">ดูงานอื่น ๆ ทั้งหมด (index รวมทุกงาน)</a></span>
 </footer>
-
-<script>
-  document.querySelectorAll('.chip').forEach(function (b) {
-    b.addEventListener('click', function () {
-      document.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('on'); });
-      b.classList.add('on');
-      var f = b.dataset.f;
-      document.querySelectorAll('.card').forEach(function (c) {
-        c.style.display = (f === 'ทั้งหมด' || c.dataset.cat === f) ? '' : 'none';
-      });
-    });
-  });
-</script>
 </body>
 </html>

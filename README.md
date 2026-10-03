@@ -1,6 +1,19 @@
-# รวมงานทั้งหมด (Homework Hub) — รหัส 007
+# ระบบแนะนำมือถือ (Neo4j + Streamlit) — รหัส 007
 
-หน้าเว็บ hub: **https://nasak16.github.io/homework/**
+หน้าเว็บโปรเจกต์ (hub): **https://nasak16.github.io/homework/**
+
+- 🌐 เว็บแอปออนไลน์: https://phone-recommender-5tqx7desto7ariadwgxyhi.streamlit.app/
+- 📓 โน๊ตบุ๊ก Colab: https://colab.research.google.com/gist/Nasak16/8667b219bbff8253335ec78f78b5c79e/PhoneRecommender_Neo4j_007.ipynb
+- 💻 โค้ด + สไลด์: https://github.com/Nasak16/phone-recommender
+- 📚 หน้ารวมงานทุกชิ้น: https://nasak16.github.io/homework/all-work.html
+
+## ตัวเลขในระบบ (ชุดข้อมูลที่สร้างเอง)
+
+| ผู้ใช้ | รุ่นมือถือ | ความสนใจ | คะแนนดาว | ยี่ห้อ | ระดับราคา |
+|---|---|---|---|---|---|
+| 12 | 23 | 38 | 38 | 11 | 3 |
+
+## งานอื่น ๆ บน GitHub
 
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
@@ -19,8 +32,3 @@
 | Decision Tree (งานที่ 3) | Decision Tree | [DecisionTree_ML3](https://github.com/Nasak16/DecisionTree_ML3) | 2026-07-10 |
 | KNN: จำแนกข้อมูลด้วยเพื่อนบ้านใกล้สุด | Machine Learning | [KNN](https://github.com/Nasak16/KNN) | 2026-07-07 |
 | หน้ารวมงานทั้งหมด (Hub — หน้านี้เอง) | รวมงาน | [homework](https://github.com/Nasak16/homework) | 2026-10-03 |
-
-## งานล่าสุด: ระบบแนะนำมือถือ (Neo4j + Streamlit)
-
-- โน๊ตบุ๊ก Colab: https://colab.research.google.com/gist/Nasak16/8667b219bbff8253335ec78f78b5c79e/PhoneRecommender_Neo4j_007.ipynb
-- โค้ด + สไลด์: https://github.com/Nasak16/phone-recommender
