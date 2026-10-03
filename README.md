@@ -1,10 +1,10 @@
-# รวมงานทั้งหมด (Homework Index) — รหัส 007
+# รวมงานทั้งหมด (Homework Hub) — รหัส 007
 
-หน้าเว็บ index: **https://nasak16.github.io/homework/**
+หน้าเว็บ hub: **https://nasak16.github.io/homework/**
 
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
-| ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-02 |
+| ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-03 |
 | ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-01 |
 | GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา) | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
 | Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB | ฐานข้อมูล | [grafanaDB](https://github.com/Nasak16/grafanaDB) | 2026-09-24 |
@@ -18,6 +18,7 @@
 | Decision Tree: จำแนกชนิดไวน์ | Decision Tree | [DTwine](https://github.com/Nasak16/DTwine) | 2026-07-14 |
 | Decision Tree (งานที่ 3) | Decision Tree | [DecisionTree_ML3](https://github.com/Nasak16/DecisionTree_ML3) | 2026-07-10 |
 | KNN: จำแนกข้อมูลด้วยเพื่อนบ้านใกล้สุด | Machine Learning | [KNN](https://github.com/Nasak16/KNN) | 2026-07-07 |
+| หน้ารวมงานทั้งหมด (Hub — หน้านี้เอง) | รวมงาน | [homework](https://github.com/Nasak16/homework) | 2026-10-02 |
 
 ## งานล่าสุด: ระบบแนะนำมือถือ (Neo4j + Streamlit)
 
