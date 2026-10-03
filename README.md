@@ -5,7 +5,7 @@
 | งาน | หมวด | repo | อัปเดต |
 |---|---|---|---|
 | ระบบแนะนำมือถือ (Neo4j + Streamlit) | ฐานข้อมูล | [phone-recommender](https://github.com/Nasak16/phone-recommender) | 2026-10-03 |
-| ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-01 |
+| ระบบแนะนำหนังสือ (Neo4j + Streamlit) | ฐานข้อมูล | [book-recommender](https://github.com/Nasak16/book-recommender) | 2026-10-03 |
 | GraphBook — ระบบแนะนำหนังสือด้วยกราฟ (งานตัวอย่างในวิชา) | ฐานข้อมูล | [GrapDB1](https://github.com/Nasak16/GrapDB1) | 2026-09-29 |
 | Dashboard แสดงข้อมูลด้วย Grafana + InfluxDB | ฐานข้อมูล | [grafanaDB](https://github.com/Nasak16/grafanaDB) | 2026-09-24 |
 | โปรเจกต์จบ: ระบบรักษาความปลอดภัยบ้าน IoT | IoT | [iot-security-dashboard](https://github.com/Nasak16/iot-security-dashboard) | 2026-08-28 |
@@ -18,7 +18,7 @@
 | Decision Tree: จำแนกชนิดไวน์ | Decision Tree | [DTwine](https://github.com/Nasak16/DTwine) | 2026-07-14 |
 | Decision Tree (งานที่ 3) | Decision Tree | [DecisionTree_ML3](https://github.com/Nasak16/DecisionTree_ML3) | 2026-07-10 |
 | KNN: จำแนกข้อมูลด้วยเพื่อนบ้านใกล้สุด | Machine Learning | [KNN](https://github.com/Nasak16/KNN) | 2026-07-07 |
-| หน้ารวมงานทั้งหมด (Hub — หน้านี้เอง) | รวมงาน | [homework](https://github.com/Nasak16/homework) | 2026-10-02 |
+| หน้ารวมงานทั้งหมด (Hub — หน้านี้เอง) | รวมงาน | [homework](https://github.com/Nasak16/homework) | 2026-10-03 |
 
 ## งานล่าสุด: ระบบแนะนำมือถือ (Neo4j + Streamlit)
 
